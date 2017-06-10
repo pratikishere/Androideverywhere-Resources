@@ -1,0 +1,121 @@
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_google_yellow"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/actPropertyAnimTextViewScaleLbl"
+                    android:text="Scale from the corner" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTopLeft"
+                        style="@style/actPropertyAnimTextViewScale"
+                        android:text="TopLeft" />
+
+                    <TextView
+                        android:id="@+id/tvTopRight"
+                        style="@style/actPropertyAnimTextViewScale"
+                        android:text="TopRight" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvBottomLeft"
+                        style="@style/actPropertyAnimTextViewScale"
+                        android:text="BottomLeft" />
+
+                    <TextView
+                        android:id="@+id/tvBottomRight"
+                        style="@style/actPropertyAnimTextViewScale"
+                        android:text="BottomRight" />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/actPropertyAnimTextViewScaleLbl"
+                    android:layout_marginTop="30dp"
+                    android:text="Scale by making scaleX or scaleY same" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvOpenFromLeft"
+                        style="@style/actPropertyAnimTextViewScale"
+                        android:text="OpenFromLeft" />
+
+                    <TextView
+                        android:id="@+id/tvOpenFromRight"
+                        style="@style/actPropertyAnimTextViewScale"
+                        android:text="OpenFromRight" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvOpenFromTop"
+                    style="@style/actPropertyAnimTextViewScale"
+                    android:layout_marginTop="30dp"
+                    android:text="OpenFromTop" />
+
+                <TextView
+                    android:id="@+id/tvOpenFromBottom"
+                    style="@style/actPropertyAnimTextViewScale"
+                    android:text="OpenFromBottom" />
+
+                <TextView
+                    android:id="@+id/tvOpenFromCenterX"
+                    style="@style/actPropertyAnimTextViewScale"
+                    android:layout_marginTop="30dp"
+                    android:text="OpenFromCenterX" />
+
+                <TextView
+                    android:id="@+id/tvOpenFromCenterY"
+                    style="@style/actPropertyAnimTextViewScale"
+                    android:layout_marginTop="30dp"
+                    android:text="OpenFromCenterY" />
+
+                <TextView
+                    style="@style/actPropertyAnimTextViewScaleLbl"
+                    android:layout_marginTop="20dp"
+                    android:text="Zoom in and Zoom out" />
+
+                <TextView
+                    android:id="@+id/tvZoomInZoomOut"
+                    style="@style/actPropertyAnimTextViewScale"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="40dp"
+                    android:text="ZoomInZoomOut" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</layout>

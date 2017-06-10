@@ -1,0 +1,40 @@
+<resources>
+    <!-- Login Activity -->
+    <dimen name="login_relativelayout_height">245dp</dimen>
+    <dimen name="login_cardview_height">200dp</dimen>
+    <dimen name="login_cardview_corner_radius">15dp</dimen>
+
+    <dimen name="login_user_button_width">120dp</dimen>
+    <dimen name="login_user_button_height">60dp</dimen>
+
+    <!-- Github Activity -->
+    <dimen name="github_imageview_height">48dp</dimen>
+    <dimen name="github_imageview_width">48dp</dimen>
+
+    <!-- Propery animations Activity -->
+    <dimen name="property_anim_imageview_height">56dp</dimen>
+    <dimen name="property_anim_imageview_width">56dp</dimen>
+
+    <!-- Alpha Fragment -->
+    <dimen name="frg_alpha_tv_height">100dp</dimen>
+    <dimen name="frg_alpha_tv_width">100dp</dimen>
+
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_19sp">19sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_26sp">26sp</dimen>
+    <dimen name="text_size_28sp">28sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

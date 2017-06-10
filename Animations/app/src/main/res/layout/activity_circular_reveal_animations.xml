@@ -1,0 +1,75 @@
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnTopLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Left" />
+
+            <Button
+                android:id="@+id/btnCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Center" />
+
+            <Button
+                android:id="@+id/btnTopRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBottomLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bottom Left" />
+
+            <Button
+                android:id="@+id/btnBottomRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Bottom Right" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vRevealEffect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:visibility="invisible"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            />
+
+    <Button
+        android:id="@+id/btnHide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+</layout>

@@ -1,0 +1,52 @@
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_google_blue">
+
+
+        <LinearLayout
+            android:id="@+id/llTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTranslationX"
+                style="@style/actPropertyAnimTextView"
+                android:text="translationX" />
+
+            <TextView
+                android:id="@+id/tvX"
+                style="@style/actPropertyAnimTextView"
+                android:layout_below="@+id/ivTranslationX"
+                android:layout_marginBottom="20dp"
+                android:text="x" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTranslationY"
+            style="@style/actPropertyAnimTextView"
+            android:layout_below="@+id/llTop"
+            android:text="translationY" />
+
+        <TextView
+            android:id="@+id/tvY"
+            style="@style/actPropertyAnimTextView"
+            android:layout_below="@+id/llTop"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tvTranslationY"
+            android:text="y" />
+
+        <TextView
+            android:id="@+id/tvAnimatorSet"
+            style="@style/actPropertyAnimTextView"
+            android:layout_below="@+id/tvY"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tvTranslationY"
+            android:text="AnimatorSet" />
+
+    </RelativeLayout>
+</layout>

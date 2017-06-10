@@ -1,0 +1,51 @@
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnTranslate"
+                    style="@style/actPropertyAnimBtn"
+                    android:text="@string/act_property_anim_btn_translate" />
+
+                <Button
+                    android:id="@+id/btnScale"
+                    style="@style/actPropertyAnimBtn"
+                    android:text="@string/act_property_anim_btn_scale" />
+
+                <Button
+                    android:id="@+id/btnRotate"
+                    style="@style/actPropertyAnimBtn"
+                    android:text="@string/act_property_anim_btn_rotate" />
+
+                <Button
+                    android:id="@+id/btnAlpha"
+                    style="@style/actPropertyAnimBtn"
+                    android:text="@string/act_property_anim_btn_alpha" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:id="@+id/flContainerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+</layout>
