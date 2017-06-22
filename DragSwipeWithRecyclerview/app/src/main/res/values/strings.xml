@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DragSwipeWithRecyclerview</string>
+
+    <!-- Fonts -->
+    <string name="roboto_reg">Roboto-Regular.ttf</string>
+    <string name="roboto_bold">Roboto-Bold.ttf</string>
+    <string name="roboto_medium">Roboto-Medium.ttf</string>
+    <string name="roboto_light">Roboto-Light.ttf</string>
+
+</resources>
