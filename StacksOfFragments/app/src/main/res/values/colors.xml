@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#CDDC39</color>
+
+    <color name="color_bottombar_bg">#dad8d8</color>
+
+    <color name="text_grey">#a6a6a6</color>
+
+    <color name="color_events_1">#4B77BE</color>
+    <color name="color_events_2">#1F4788</color>
+    <color name="color_events_3">#003171</color>
+
+    <color name="color_chat_1">#6B9362</color>
+    <color name="color_chat_2">#407A52</color>
+
+</resources>

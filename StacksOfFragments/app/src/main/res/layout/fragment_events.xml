@@ -1,0 +1,17 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        style="@style/tvTitleGrey"
+        android:text="EventsFragment"
+        />
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/btnNext"
+        android:text="Next"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:id="@+id/llHome"
+            style="@style/llBottomBar">
+
+            <ImageView
+                style="@style/llImageView"
+                android:src="@drawable/selector_home"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llEvents"
+            style="@style/llBottomBar">
+
+            <ImageView
+                style="@style/llImageView"
+                android:src="@drawable/selector_events"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSearch"
+            style="@style/llBottomBar">
+
+            <ImageView
+                style="@style/llImageView"
+                android:padding="4dp"
+                android:src="@drawable/selector_search"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llChat"
+            style="@style/llBottomBar">
+
+            <ImageView
+                style="@style/llImageView"
+                android:src="@drawable/selector_chat"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llProfile"
+            style="@style/llBottomBar">
+
+            <ImageView
+                android:padding="4dp"
+                style="@style/llImageView"
+                android:src="@drawable/selector_profile"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
