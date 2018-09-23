@@ -1,3 +1,3 @@
 # Androideverywhere-Resources
 
-This repo contains source code for different demos that I explained each of them in separate post @ [Android Everywhere blogspot](http://androideverywhere.in/)
+This repo contains source code for different demos. Please check [Wiki section](https://github.com/TheFlash20/Androideverywhere-Resources/wiki) for detailed explanation
